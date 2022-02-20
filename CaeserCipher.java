@@ -7,7 +7,6 @@ public class Main
 	    System.out.print("Enter a sentence: ");
 	    String plaintext=sc.nextLine();
 	    int shift=2;
-	    String ciphertext="";
 	    char alphabet;
 	    for(int i=0; i<plaintext.length(); i++)
 	    {
